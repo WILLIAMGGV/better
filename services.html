@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Better</title>
+    <!-- INSERTAR HERRAMIENTA TAILWIND Y SCRIPTS -->
+    <script src="style/cdntailwind.5"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ANIMACION CON EL SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- FIN DE IMPORTACION DE LA ANIMACION CON SCROLL -->
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/estilos.css" />
+  </head>
+  <body>
+   <div class="relative w-full">
+  <!-- Barra superior -->
+  <div class="w-full z-10 m-0 flex flex-row justify-between p-4 bg-black items-center">
+    <!-- Logo -->
+    <div class="pl-4">
+      <a href="/">
+        <img src="img/logo-blanco.webp" width="150px" alt="Logo" data-aos="fade-down" data-aos-duration="500" />
+      </a>
+    </div>
+
+    <!-- Menú Desktop -->
+    <div class="hidden md:flex flex-row justify-center items-center text-white fuente-refsan">
+      <a href="/"><span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="500">HOME</span></a>
+      <a href="/services.html"><span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="1000">SERVICIOS</span></a>
+      <a href="https://wa.me/573222218438" target="_blank">
+  <span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="1500">
+    CONTACTO
+  </span>
+</a>
+      <a href="/#nosotros"><span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="2000">NOSOTROS</span></a>
+      <a href="/#proyectos"><span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="2500">PROYECTOS</span></a>
+    </div>
+
+    <!-- Iconos Sociales Desktop -->
+    <div class="hidden md:flex flex-row items-center mr-[30px]" data-aos="zoom-in-down" data-aos-duration="3000">
+     <img class="mx-2 social-icon instagram" src="img/logo-instagram.webp" width="25px" alt="Instagram" />
+      <img class="mx-2 social-icon whatsapp" src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" />
+      <img class="mx-2 social-icon linkedin" src="img/logo-linked.webp" width="25px" alt="LinkedIn" />
+      <img class="mx-2 social-icon email" src="img/logo-envelope.webp" width="25px" alt="Correo" />
+    </div>
+
+    <!-- Botón menú hamburguesa (visible en móvil) -->
+    <button id="menu-toggle" class="md:hidden text-white focus:outline-none pr-4">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Menú móvil oculto inicialmente -->
+  <div id="mobile-menu" class="hidden md:hidden bg-black text-white fuente-refsan flex-col items-start px-6 py-4 space-y-4">
+    <a href="#" class="block">HOME</a>
+    <a href="#" class="block">SERVICIOS</a>
+    <a href="#" class="block">CONTACTO</a>
+    <a href="#" class="block">NOSOTROS</a>
+    <a href="#" class="block">PROYECTOS</a>
+    <div class="flex space-x-4 pt-2">
+      <img src="img/logo-instagram.webp" width="25px" alt="Instagram" />
+      <img src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" />
+      <img src="img/logo-linked.webp" width="25px" alt="LinkedIn" />
+      <img src="img/logo-envelope.webp" width="25px" alt="Correo" />
+    </div>
+  </div>
+</div>
+
+    <br /><br /><br />
+
+    <div
+      class="relative w-full h-full flex flex-col justify-center items-center"
+    >
+      <br /><br /><br /><br /><br />
+      <img
+        class="w-full h-full object-cover absolute top-0 left-0 z-0"
+        src="img/degradado.webp"
+        alt=""
+      />
+      <div class="z-10 w-full grid grid-cols-2 gap-2 rounded-xl p-2">
+        <div align="center" class="text-white">
+          <div class="flex flex-col place-content-end justify-end items-end">
+            <img src="img/identidad.png" width="70%" alt="" data-aos="zoom-in" data-aos-duration="500" />
+            <img src="img/demarca.webp" width="70%" alt="" class="mt-[-30px]" data-aos="zoom-in" data-aos-duration="1000" />
+            <p
+              align="justify"
+              class="w-[70%] fuente-mont-extralight text-xl text-black" data-aos="zoom-in-down" data-aos-duration="1500"
+            >
+              <span class="text-[var(--blue)] fuente-mont-black"
+                >Ayudamos a negocios con objetivos claros a construir una
+                identidad visual sólida y efectiva:</span
+              >
+              Diseñamos logos que capturan la esencia de tu marca y creamos una
+              imagen completa que te diferencia en el mercado. Desde la elección
+              de colores y tipografías hasta la definición de tu estilo visual,
+              te acompañamos en cada paso para que tu marca comunique tu valor y
+              conecte con tu público ideal.
+            </p>
+            <br /><br /><br />
+          </div>
+        </div>
+        <div align="center" class="text-white">
+          <img src="img/lapiz.png" width="70%" alt=""  data-aos="zoom-in-down"  data-aos-duration="2500" />
+        </div>
+      </div>
+      <div align="center" class="z-10 w-full">
+        <img src="img/banner4.webp" width="80%" alt="" data-aos="zoom-out" data-aos-duration="3000" />
+      </div>
+      <br /><br /><br /><br /><br />
+      <div class="z-10 w-full grid grid-cols-2 gap-2 rounded-xl p-2">
+        <div align="center" class="text-white">
+          <div class="flex flex-col place-content-end justify-end items-end">
+            <img src="img/disenografico.png" width="70%" alt=""  data-aos="zoom-in" data-aos-duration="500" />
+            <img src="img/impreso.webp" width="70%" alt="" class="mt-[-30px]"  data-aos="zoom-in" data-aos-duration="1500" />
+            <p
+              align="justify"
+              class="w-[70%] fuente-mont-extralight text-xl text-black"  data-aos="zoom-in-down" data-aos-duration="1500"
+            >
+              <span class="text-[var(--blue)] fuente-mont-black"
+                >Transformamos tus ideas
+              </span>
+              en diseños para impresión que impactan y perduran. Desde tarjetas
+              de presentación y folletos hasta catálogos y empaques, creamos
+              diseños que comunican tu mensaje con claridad y estilo. Nos
+              enfocamos en la calidad, la precisión y la atención al detalle
+              para asegurar que cada pieza impresa refleje la profesionalidad y
+              la excelencia de tu marca.
+            </p>
+            <br /><br /><br />
+          </div>
+        </div>
+        <div align="center" class="text-white">
+          <img src="img/banner5.png" width="80%" alt=""   data-aos="zoom-in-down"  data-aos-duration="2500" />
+        </div>
+      </div>
+    </div>
+
+    <table style="border-collapse: collapse; border-spacing: 0; width: 100%"    data-aos="zoom-in-down"  data-aos-duration="2500">
+      <tr>
+        <td style="padding: 0; margin: 0">
+          <img src="img/lado1.png" style="display: block; width: 100%" alt="" />
+        </td>
+        <td style="padding: 0; margin: 0">
+          <img src="img/lado2.png" style="display: block; width: 100%" alt="" />
+        </td>
+      </tr>
+    </table>
+
+    <div align="center" data-aos="zoom-out-up" data-aos-duration="3000">
+      <br /><br /><br />
+      <img src="img/planes.webp" width="400px" alt="" />
+      <br /><br /><br /><br />
+    </div>
+
+    <div class="relative w-full h-full flex flex-col justify-center items-center">
+      <br /><br /><br /><br /><br />
+      <img
+        class="w-full h-full object-cover absolute top-0 left-0 z-0"
+        src="img/degradado.webp"
+        alt=""
+      />
+    
+
+  <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div
+    class="z-10 grid place-content-center justify-center items-center"
+    style="grid-template-columns: 30% 30%; gap: 40px; width: 100%;"
+  >
+  
+    <div >
+      <div class="flex flex-col place-content-end justify-end items-end">
+            <img src="img/disenografico.png" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="500" />
+            <img src="img/digital.webp" width="100%" alt="" class="mt-[-30px]"   data-aos="zoom-in-down" data-aos-duration="1500" />
+            <p
+              align="justify"
+              class="w-[100%] fuente-mont-extralight text-xl text-black"   data-aos="zoom-in-down" data-aos-duration="2500"
+            >
+              <span class="text-[var(--blue)] fuente-mont-black"
+                >Creamos contenido visual impactante y estratégico.</span
+              >
+              Desde publicaciones atractivas e ilustraciones personalizadas
+              hasta historias dinámicas y campañas orgánicas, diseñamos piezas
+              que conectan con tu audiencia y potencian tu presencia en linea.
+              Buscamos mantener una estética llamativa y alineada a la linea
+              gráfica de tu marca, asegurando que tu marca destaque en el mundo
+              digital.
+            </p>
+            <br /><br /><br />
+          </div>
+    </div>
+    <div> <img src="img/phone.png" width="100%" alt=""   data-aos="zoom-in-down" data-aos-duration="2500"></div>
+  </div>
+  </div>
+  <br><br><br><br>
+  <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div
+    class="z-10 grid place-content-center justify-center items-center"
+    style="grid-template-columns: 20% 20% 20%; gap: 20px; width: 100%;"
+  >
+    <div >
+      <img src="img/phone2.webp" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="500">
+    </div>
+    <div > <img src="img/phone3.webp" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="1000"></div>
+    <div > <img src="img/phone4.webp" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="1500"></div>
+  </div>
+  </div>
+
+<br><br><br><br>
+   <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div
+    class="z-10 grid place-content-center justify-center items-center"
+    style="grid-template-columns: 30% 30%; gap: 40px; width: 100%;"
+  >
+    
+    <div > <img src="img/phone5.png" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="2000"></div>
+    <div > <img src="img/phone6.png" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="2500"></div>
+  </div>
+  </div>
+      <div align="center" class="z-10" data-aos="zoom-in-down" data-aos-duration="2500">
+      <br /><br /><br />
+      <img src="img/planes.webp" width="400px" alt="" />
+      <br /><br /><br /><br />
+    </div>
+
+    <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div
+    class="z-10 grid place-content-center justify-center items-center"
+    style="grid-template-columns: 35% 35%; gap: 0px; width: 100%;"
+  >
+  
+    <div >
+      <div class="flex flex-col place-content-end justify-end items-end">
+            <img src="img/disenoy.png" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="500" />
+            <img src="img/desarrolloweb.webp" width="100%" alt="" class="mt-[-10px]" data-aos="zoom-in-down" data-aos-duration="1000" />
+            <p
+              align="justify"
+              class="w-[100%] fuente-mont-extralight text-xl text-black" data-aos="zoom-in-down" data-aos-duration="2500"
+            >
+              <span class="text-[var(--blue)] fuente-mont-black"
+                >Construimos tu presencia digital con soluciones a medida.</span
+              >
+              
+Diseñamos y desarrollamos sitios web atractivos y funcionales, tiendas en linea optimizadas para la conversión, aplicaciones móviles innovadoras y plataformas administrativas eficientes, Nos enfocamos en la experiencia del usuario, la usabilidad y el rendimiento para crear herramientas digitales que impulsen tu negocio. Desde la conceptualización y el diseño hasta el desarrollo y el mantenimiento, te acompañamos en cada etapa para que tu proyecto digital sea un éxito.
+            </p>
+            <br /><br /><br />
+          </div>
+    </div>
+    <div class="ml-[-50px]"> <img src="img/laptop.webp" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="2500"></div>
+  </div>
+  </div>
+
+  <div class="z-10">
+    <img src="img/flores.png" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="2500">
+  </div>
+
+  <div
+  align="center"
+  class="w-full z-10" 
+  style="background: linear-gradient(to right, #363636, #121212);"  
+>
+  <br /><br />
+  <img src="img/planesblanco.webp" width="400px" alt="" data-aos="zoom-in-down" data-aos-duration="2500"  />
+  <br /><br /><br />
+</div>
+
+
+    <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div
+    class="z-10 grid place-content-center justify-center items-center"
+    style="grid-template-columns: 35% 30%; gap: 20px; width: 100%;"
+  >
+  
+    <div >
+      <div class="flex flex-col place-content-center justify-center items-center">
+            
+         <img src="img/meta.png" width="100%"  data-aos="zoom-in-down" data-aos-duration="500" >
+
+            <img src="img/ads.webp" width="100%" class="mt-[-80px]"   data-aos="zoom-in-down" data-aos-duration="1500">
+
+          </div>
+    </div>
+    <div align="center"> <img src="img/telefono.webp" width="100%" alt=""   data-aos="zoom-in-down" data-aos-duration="2500"></div>
+  </div>
+  </div>
+
+
+    <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div
+    class="z-10 grid place-content-center justify-center items-center"
+    style="grid-template-columns: 65%; gap: 20px; width: 100%;" data-aos="zoom-in-down" data-aos-duration="2500"
+  >
+  
+    <div class=" fuente-mont-extralight text-2xl text-black">
+     <p align="justify"><span class="text-[var(--blue)] fuente-mont-black"   
+                >Impulsamos tu negocio con campañas publicitarias estratégicas en Meta Ads.</span> Diseñamos anuncios que capturan la atención, segmentamos tu audiencia para alcanzar a tus clientes ideales y optimizamos cada campaña para maximizar tu retorno de inversión. Desde la creación de contenido visual atractivo hasta el análisis de resultados, te acompañamos en cada paso para tus anuncios generen resultados reales y hagan crecer tu negocio.</p>
+    </div>
+    
+  </div>
+  </div>
+
+
+  <br><br><br><br>
+
+ <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div class="z-10 grid place-content-center justify-center items-center" style="grid-template-columns: 20% 20% 20%; gap: 20px; width: 100%;">
+    <div align="center">
+      <img src="img/op1.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="500">
+    </div>
+    <div align="center">
+      <img src="img/op2.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="1000">
+    </div>
+    <div align="center">
+      <img src="img/op3.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="1500">
+    </div>
+  </div>
+</div>
+<br><br>
+
+<div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div class="z-10 grid place-content-center justify-center items-center" style="grid-template-columns: 20% 20% 20%; gap: 20px; width: 100%;">
+    <div align="center">
+      <img src="img/op4.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="2000">
+    </div>
+    <div align="center">
+      <img src="img/op5.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="2500">
+    </div>
+    <div align="center">
+      <img src="img/op6.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="3000">
+    </div>
+  </div>
+</div>
+
+
+    <br><br><br><br>
+
+    <div class="relative w-full h-auto flex flex-col justify-center items-center py-10 pl-[15%] pr-[15%] bg-black">
+  <!-- Imagen de fondo -->
+  <img
+    class="w-full h-full object-cover absolute top-0 left-0 z-0"
+    src="img/bg-negro.webp"
+    alt=""
+  />
+
+  <!-- Contenido principal del footer -->
+  <div class="z-10 w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 mt-8 md:mt-[5%]">
+    <!-- Logo -->
+    <div class="flex justify-center md:justify-start items-center">
+      <img src="img/logo-foot.webp" class="w-[200px] md:w-[250px]" alt="Logo" />
+    </div>
+
+    <!-- Menú y redes sociales -->
+    <div class="flex flex-col items-center md:items-end text-white fuente-mont-light text-center md:text-right">
+      <!-- Menú de navegación -->
+      <div class="flex flex-col items-center md:items-end text-white font-light">
+        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
+          HOME
+        </span>
+        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
+          SERVICIOS
+        </span>
+        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
+          CONTACTO
+        </span>
+        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
+          NOSOTROS
+        </span>
+        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
+          PROYECTOS
+        </span>
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="flex flex-row items-center mt-6 flex-wrap justify-center md:justify-end gap-3">
+        <img src="img/logo-instagram.webp" width="30" alt="Instagram"
+          class="social-icon-glow cursor-pointer transition-all duration-300" />
+        <img src="img/logo-whatsapp.webp" width="30" alt="WhatsApp"
+          class="social-icon-glow cursor-pointer transition-all duration-300" />
+        <img src="img/logo-linked.webp" width="30" alt="LinkedIn"
+          class="social-icon-glow cursor-pointer transition-all duration-300" />
+        <img src="img/logo-envelope.webp" width="30" alt="Correo"
+          class="social-icon-glow cursor-pointer transition-all duration-300" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Título inferior -->
+  <div class="z-10 mt-10 text-center text-xl md:text-2xl text-white fuente-refsan">
+    <img src="img/titulopie.webp" class="w-[250px] md:w-[400px] mx-auto" alt="Título pie" />
+  </div>
+</div>
+
+
+    <script>
+      AOS.init();
+    </script>
+    <script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+  </body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Better</title>
+    <!-- INSERTAR HERRAMIENTA TAILWIND Y SCRIPTS -->
+    <script src="style/cdntailwind.5"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ANIMACION CON EL SCROLL -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- FIN DE IMPORTACION DE LA ANIMACION CON SCROLL -->
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/estilos.css" />
+  </head>
+  <body>
+    <div class="relative w-full">
+      <!-- Barra superior -->
+      <div
+        class="w-full z-10 m-0 flex flex-row justify-between p-4 bg-black items-center"
+      >
+        <!-- Logo -->
+        <div class="pl-4">
+          <a href="/">
+            <img
+              src="img/logo-blanco.webp"
+              width="150px"
+              alt="Logo"
+              data-aos="fade-down"
+              data-aos-duration="500"
+            />
+          </a>
+        </div>
+
+        <!-- Menú Desktop -->
+        <div
+          class="hidden md:flex flex-row justify-center items-center text-white fuente-refsan"
+        >
+          <a href="/"
+            ><span
+              class="mx-4 menu-hover-effect cursor-pointer"
+              data-aos="zoom-out-up"
+              data-aos-duration="500"
+              >HOME</span
+            ></a
+          >
+          <a href="/services.html"
+            ><span
+              class="mx-4 menu-hover-effect cursor-pointer"
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+              >SERVICIOS</span
+            ></a
+          >
+          <a href="https://wa.me/573222218438" target="_blank">
+            <span
+              class="mx-4 menu-hover-effect cursor-pointer"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+            >
+              CONTACTO
+            </span>
+          </a>
+          <a href="/#nosotros"
+            ><span
+              class="mx-4 menu-hover-effect cursor-pointer"
+              data-aos="zoom-out-up"
+              data-aos-duration="2000"
+              >NOSOTROS</span
+            ></a
+          >
+          <a href="/#proyectos"
+            ><span
+              class="mx-4 menu-hover-effect cursor-pointer"
+              data-aos="zoom-out-up"
+              data-aos-duration="2500"
+              >PROYECTOS</span
+            ></a
+          >
+        </div>
+
+        <!-- Iconos Sociales Desktop -->
+        <div
+          class="hidden md:flex flex-row items-center mr-[30px]"
+          data-aos="zoom-in-down"
+          data-aos-duration="3000"
+        >
+          <img
+            class="mx-2 social-icon instagram"
+            src="img/logo-instagram.webp"
+            width="25px"
+            alt="Instagram"
+          />
+          <img
+            class="mx-2 social-icon whatsapp"
+            src="img/logo-whatsapp.webp"
+            width="25px"
+            alt="WhatsApp"
+          />
+          <img
+            class="mx-2 social-icon linkedin"
+            src="img/logo-linked.webp"
+            width="25px"
+            alt="LinkedIn"
+          />
+          <img
+            class="mx-2 social-icon email"
+            src="img/logo-envelope.webp"
+            width="25px"
+            alt="Correo"
+          />
+        </div>
+
+        <!-- Botón menú hamburguesa (visible en móvil) -->
+        <button
+          id="menu-toggle"
+          class="md:hidden text-white focus:outline-none pr-4"
+        >
+          <svg
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Menú móvil oculto inicialmente -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-black text-white fuente-refsan flex-col items-start px-6 py-4 space-y-4"
+      >
+        <a href="#" class="block">HOME</a>
+        <a href="#" class="block">SERVICIOS</a>
+        <a href="#" class="block">CONTACTO</a>
+        <a href="#" class="block">NOSOTROS</a>
+        <a href="#" class="block">PROYECTOS</a>
+        <div class="flex space-x-4 pt-2">
+          <img src="img/logo-instagram.webp" width="25px" alt="Instagram" />
+          <img src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" />
+          <img src="img/logo-linked.webp" width="25px" alt="LinkedIn" />
+          <img src="img/logo-envelope.webp" width="25px" alt="Correo" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <img src="img/pro21.webp" width="100%" alt="" />
+    </div>
+
+    <div>
+      <img src="img/pro22.webp" width="100%" alt="" />
+    </div>
+    <div>
+      <img src="img/pro23.webp" width="100%" alt="" />
+    </div>
+
+    <div>
+      <img src="img/pro24.webp" width="100%" alt="" />
+    </div>
+
+    <div
+      class="relative w-full h-auto flex flex-col justify-center items-center py-10 pl-[15%] pr-[15%] bg-black"
+    >
+      <!-- Imagen de fondo -->
+      <img
+        class="w-full h-full object-cover absolute top-0 left-0 z-0"
+        src="img/bg-negro.webp"
+        alt=""
+      />
+
+      <!-- Contenido principal del footer -->
+      <div
+        class="z-10 w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 mt-8 md:mt-[5%]"
+      >
+        <!-- Logo -->
+        <div class="flex justify-center md:justify-start items-center">
+          <img
+            src="img/logo-foot.webp"
+            class="w-[200px] md:w-[250px]"
+            alt="Logo"
+          />
+        </div>
+
+        <!-- Menú y redes sociales -->
+        <div
+          class="flex flex-col items-center md:items-end text-white fuente-mont-light text-center md:text-right"
+        >
+          <!-- Menú de navegación -->
+          <div
+            class="flex flex-col items-center md:items-end text-white font-light"
+          >
+            <span
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              HOME
+            </span>
+            <span
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              SERVICIOS
+            </span>
+            <span
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              CONTACTO
+            </span>
+            <span
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              NOSOTROS
+            </span>
+            <span
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              PROYECTOS
+            </span>
+          </div>
+
+          <!-- Redes sociales -->
+          <div
+            class="flex flex-row items-center mt-6 flex-wrap justify-center md:justify-end gap-3"
+          >
+            <img
+              src="img/logo-instagram.webp"
+              width="30"
+              alt="Instagram"
+              class="social-icon-glow cursor-pointer transition-all duration-300"
+            />
+            <img
+              src="img/logo-whatsapp.webp"
+              width="30"
+              alt="WhatsApp"
+              class="social-icon-glow cursor-pointer transition-all duration-300"
+            />
+            <img
+              src="img/logo-linked.webp"
+              width="30"
+              alt="LinkedIn"
+              class="social-icon-glow cursor-pointer transition-all duration-300"
+            />
+            <img
+              src="img/logo-envelope.webp"
+              width="30"
+              alt="Correo"
+              class="social-icon-glow cursor-pointer transition-all duration-300"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Título inferior -->
+      <div
+        class="z-10 mt-10 text-center text-xl md:text-2xl text-white fuente-refsan"
+      >
+        <img
+          src="img/titulopie.webp"
+          class="w-[250px] md:w-[400px] mx-auto"
+          alt="Título pie"
+        />
+      </div>
+    </div>
+
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const toggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("mobile-menu");
+
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

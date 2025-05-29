@@ -1,0 +1,244 @@
+
+#all {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-flip {
+
+    position: absolute;
+    padding: 40px 40px 40px 600px;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+#r1 {
+    position: absolute;
+    z-index: 2;
+    -webkit-transform-origin: 1315px 500px;
+    -webkit-transform: translate(-1030px, -500px) rotate(-32deg);
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -webkit-transition-duration: 1s;
+}
+
+#p1 {
+    width: 1365px;
+    height: 1388px;
+    overflow: hidden;
+}
+
+#p1 > div {
+    -webkit-transform-origin: 285px 0;
+    -webkit-transform: translate(1030px, 500px) rotate(32deg);
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -webkit-transition-duration: 1s;
+    width: 385px;
+    height: 488px;
+    background-image: url(/style/portada1.png);
+}
+
+#p1 > div > div {
+    width: 10px;
+    height: 488px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .25)), to(rgba(0,0,0,0)));
+}
+
+#p2 > div {
+    width: 385px;
+    height: 488px;
+    -webkit-box-shadow: 0 0 11px rgba(0, 0, 0, .5);
+    position: absolute;
+    z-index: 1;
+    background-image: url(/style/portada2.png);
+}
+
+#r3 {
+    -webkit-transform-origin: 1015px 290px;
+    -webkit-transform: translate(-1000px, -310px) rotate(-32deg);
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -webkit-transition-duration: 1s;
+    position: absolute;
+    z-index: 2;
+}
+
+#s3 {
+    -webkit-transform-origin: 80px 345px;
+    -webkit-transform: translate(215px, -500px) rotate(-32deg) translate(40px, 0);
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -webkit-transition-duration: 1s;
+    position: absolute;
+    z-index: 1;
+}
+
+#page-flip:hover #s3 {
+    -webkit-transform-origin: 325px 500px;
+    -webkit-transform: translate(-40px, -500px) rotate(0deg) translate(40px, 0);
+}
+
+#sp3 {
+    width: 25px;
+    height: 1000px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .25)), to(rgba(0,0,0,0)));
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 1s;
+    overflow: hidden;
+}
+
+#page-flip:hover #sp3 { width: 11px }
+
+.s {
+    width: 385px;
+    height: 488px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 3;
+}
+
+#s2 {
+    -webkit-transform-origin: 45px 350px;
+    -webkit-transform: translate(240px, -500px) rotate(-32deg);
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -webkit-transition-duration: 1s;
+    position: absolute;
+}
+
+#sp2 {
+    width: 15px;
+    height: 1000px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, .18)), to(rgba(0,0,0,0)));
+    overflow: hidden;
+}
+
+#s4 {
+    opacity: 1;
+    -webkit-transition-duration: 0.5s;
+}
+
+#page-flip:hover #s4 { opacity: 0 }
+
+#page-flip:hover #s2 {
+    -webkit-transform-origin: 300px 500px;
+    -webkit-transform: translate(-15px, -500px) rotate(0deg);
+}
+
+#p3 {
+    width: 1285px;
+    height: 1388px;
+    overflow: hidden;
+}
+
+#p3 > div {
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: translate(1255px, 500px) rotate(-32deg);
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -webkit-transition-duration: 1s;
+    -webkit-box-shadow: 0 0 11px rgba(0, 0, 0, .5);
+    width: 385px;
+    height: 488px;
+    background-image: url(/style/portada3.png);
+    overflow: hidden;
+}
+
+#p3 > div > div {
+    width: 9px;
+    height: 500px;
+    float: right;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,.20)));
+}
+
+#page-flip:hover #r1 {
+    -webkit-transform-origin: 1570px 500px;
+    -webkit-transform: translate(-1485px, -500px) rotate(-0deg);
+   
+}
+
+#page-flip:hover #p1 > div {
+    -webkit-transform-origin: 105px 0px;
+    -webkit-transform: translate(1485px, 500px) rotate(0deg);
+}
+
+#page-flip:hover #r3 {
+    -webkit-transform-origin: 1570px 500px;
+    -webkit-transform: translate(-1285px, -500px) rotate(0deg);
+}
+
+#page-flip:hover #p3 > div {
+    -webkit-transform-origin: 0 0;
+    -webkit-transform: translate(900px, 500px) rotate(0deg);
+}
+
+
+#coke {
+    width: 253px;
+    height: 158px;
+}
+
+
+#page-flip:hover #coke {
+    -webkit-transition-delay: .8s;
+    margin: 33px 0 0 14px;
+}
+
+#meninas {
+    width: 253px;
+    height: 167px;
+}
+
+#page-flip:hover #meninas {
+    -webkit-transition-delay: .8s;
+    margin: 203px 0 0 14px;
+}
+
+
+
+.modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed; /* Fijo en la pantalla */
+    z-index: 1; /* Asegurarse de que esté en la parte superior */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    background-color: rgba(
+      0,
+      0,
+      0,
+      0.7
+    ); /* Fondo negro con transparencia */
+  }
+
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrar el contenido */
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(238, 197, 9, 1) 100%,
+      rgba(8, 61, 113, 1) 100%
+    );
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .close {
+    color: #aaa;
+    left: 96%;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 1000;
+    position: absolute; /* O relative, dependiendo de tu diseño */
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
