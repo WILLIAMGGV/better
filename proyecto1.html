@@ -24,10 +24,10 @@
     <link rel="stylesheet" href="style/estilos.css" />
   </head>
   <body>
-    <div class="relative w-full">
+    <div class="fixed top-0 left-0 w-full z-50">
       <!-- Barra superior -->
       <div
-        class="w-full z-10 m-0 flex flex-row justify-between p-4 bg-black items-center"
+        class="w-full z-50 m-0 flex flex-row justify-between p-4 bg-black items-center"
       >
         <!-- Logo -->
         <div class="pl-4">
@@ -62,7 +62,7 @@
               >SERVICIOS</span
             ></a
           >
-          <a href="https://wa.me/573222218438" target="_blank">
+          <a href="https://wa.me/573125246155" target="_blank">
             <span
               class="mx-4 menu-hover-effect cursor-pointer"
               data-aos="zoom-out-up"
@@ -95,24 +95,31 @@
           data-aos="zoom-in-down"
           data-aos-duration="3000"
         >
-          <img
-            class="mx-2 social-icon instagram"
-            src="img/logo-instagram.webp"
-            width="25px"
-            alt="Instagram"
-          />
-          <img
-            class="mx-2 social-icon whatsapp"
-            src="img/logo-whatsapp.webp"
-            width="25px"
-            alt="WhatsApp"
-          />
-          <img
-            class="mx-2 social-icon linkedin"
-            src="img/logo-linked.webp"
-            width="25px"
-            alt="LinkedIn"
-          />
+          <a
+            href="https://www.instagram.com/bettermt.company?igsh=ZGRqcW9wdzUxMm15&utm_source=qr"
+            target="_blank"
+            ><img
+              class="mx-2 social-icon instagram"
+              src="img/logo-instagram.webp"
+              width="25px"
+              alt="Instagram"
+          /></a>
+          <a href="https://wa.me/573125246155" target="_blank"
+            ><img
+              class="mx-2 social-icon whatsapp"
+              src="img/logo-whatsapp.webp"
+              width="25px"
+              alt="WhatsApp"
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/bettermt-company/about/?viewAsMember=true"
+            target="_blank"
+            ><img
+              class="mx-2 social-icon linkedin"
+              src="img/logo-linked.webp"
+              width="25px"
+              alt="LinkedIn"
+          /></a>
           <img
             class="mx-2 social-icon email"
             src="img/logo-envelope.webp"
@@ -147,15 +154,27 @@
         id="mobile-menu"
         class="hidden md:hidden bg-black text-white fuente-refsan flex-col items-start px-6 py-4 space-y-4"
       >
-        <a href="#" class="block">HOME</a>
-        <a href="#" class="block">SERVICIOS</a>
-        <a href="#" class="block">CONTACTO</a>
-        <a href="#" class="block">NOSOTROS</a>
-        <a href="#" class="block">PROYECTOS</a>
+        <a href="/" class="block">HOME</a>
+        <a href="/services.html" class="block">SERVICIOS</a>
+        <a href="https://wa.me/573125246155" target="_blank" class="block"
+          >CONTACTO</a
+        >
+        <a href="/#nosotros" class="block">NOSOTROS</a>
+        <a href="/#proyectos" class="block">PROYECTOS</a>
         <div class="flex space-x-4 pt-2">
-          <img src="img/logo-instagram.webp" width="25px" alt="Instagram" />
-          <img src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" />
-          <img src="img/logo-linked.webp" width="25px" alt="LinkedIn" />
+          <a
+            href="https://www.instagram.com/bettermt.company?igsh=ZGRqcW9wdzUxMm15&utm_source=qr"
+            target="_blank"
+            ><img src="img/logo-instagram.webp" width="25px" alt="Instagram"
+          /></a>
+          <a href="https://wa.me/573125246155" target="_blank"
+            ><img src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp"
+          /></a>
+          <a
+            href="https://www.linkedin.com/company/bettermt-company/about/?viewAsMember=true"
+            target="_blank"
+            ><img src="img/logo-linked.webp" width="25px" alt="LinkedIn"
+          /></a>
           <img src="img/logo-envelope.webp" width="25px" alt="Correo" />
         </div>
       </div>
@@ -192,11 +211,12 @@
       >
         <!-- Logo -->
         <div class="flex justify-center md:justify-start items-center">
-          <img
-            src="img/logo-foot.webp"
-            class="w-[200px] md:w-[250px]"
-            alt="Logo"
-          />
+          <a href="/"
+            ><img
+              src="img/logo-foot.webp"
+              class="w-[200px] md:w-[250px]"
+              alt="Logo"
+          /></a>
         </div>
 
         <!-- Menú y redes sociales -->
@@ -207,61 +227,75 @@
           <div
             class="flex flex-col items-center md:items-end text-white font-light"
           >
-            <span
+            <a
+              href="/"
               class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
             >
               HOME
-            </span>
-            <span
+            </a>
+            <a
+              href="services.html"
               class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
             >
               SERVICIOS
-            </span>
-            <span
+            </a>
+            <a
+              href="https://wa.me/573125246155"
+              target="_blank"
               class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
             >
               CONTACTO
-            </span>
-            <span
+            </a>
+            <a
+              href="/#nosotros"
               class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
             >
               NOSOTROS
-            </span>
-            <span
+            </a>
+            <a
+              href="/#proyectos"
               class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
             >
               PROYECTOS
-            </span>
+            </a>
           </div>
 
           <!-- Redes sociales -->
           <div
             class="flex flex-row items-center mt-6 flex-wrap justify-center md:justify-end gap-3"
           >
-            <img
-              src="img/logo-instagram.webp"
-              width="30"
-              alt="Instagram"
-              class="social-icon-glow cursor-pointer transition-all duration-300"
-            />
-            <img
-              src="img/logo-whatsapp.webp"
-              width="30"
-              alt="WhatsApp"
-              class="social-icon-glow cursor-pointer transition-all duration-300"
-            />
-            <img
-              src="img/logo-linked.webp"
-              width="30"
-              alt="LinkedIn"
-              class="social-icon-glow cursor-pointer transition-all duration-300"
-            />
-            <img
-              src="img/logo-envelope.webp"
-              width="30"
-              alt="Correo"
-              class="social-icon-glow cursor-pointer transition-all duration-300"
-            />
+            <a
+              href="https://www.instagram.com/bettermt.company?igsh=ZGRqcW9wdzUxMm15&utm_source=qr"
+              target="_blank"
+              ><img
+                src="img/logo-instagram.webp"
+                width="30"
+                alt="Instagram"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+            <a href="https://wa.me/573125246155" target="_blank"
+              ><img
+                src="img/logo-whatsapp.webp"
+                width="30"
+                alt="WhatsApp"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+            <a
+              href="https://www.linkedin.com/company/bettermt-company/about/?viewAsMember=true"
+              target="_blank"
+              ><img
+                src="img/logo-linked.webp"
+                width="30"
+                alt="LinkedIn"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+            <a href="mailto:operacionesbettermt@gmail.com"
+              ><img
+                src="img/logo-envelope.webp"
+                width="30"
+                alt="Correo"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
           </div>
         </div>
       </div>
@@ -277,6 +311,14 @@
         />
       </div>
     </div>
+    <a
+      href="https://wa.me/573125246155"
+      class="whatsapp-button"
+      target="_blank"
+      aria-label="Chatea con nosotros por WhatsApp"
+    >
+      <img src="img/WhatsApp.svg" alt="WhatsApp" />
+    </a>
 
     <script>
       AOS.init();

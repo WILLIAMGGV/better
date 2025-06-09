@@ -24,9 +24,11 @@
     <link rel="stylesheet" href="style/estilos.css" />
   </head>
   <body>
-   <div class="relative w-full">
+   <div class="fixed top-0 left-0 w-full z-50">
   <!-- Barra superior -->
-  <div class="w-full z-10 m-0 flex flex-row justify-between p-4 bg-black items-center">
+  <div
+        class="w-full z-50 m-0 flex flex-row justify-between p-4 bg-black items-center"
+      >
     <!-- Logo -->
     <div class="pl-4">
       <a href="/">
@@ -38,7 +40,7 @@
     <div class="hidden md:flex flex-row justify-center items-center text-white fuente-refsan">
       <a href="/"><span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="500">HOME</span></a>
       <a href="/services.html"><span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="1000">SERVICIOS</span></a>
-      <a href="https://wa.me/573222218438" target="_blank">
+      <a href="https://wa.me/573125246155" target="_blank">
   <span class="mx-4 menu-hover-effect cursor-pointer" data-aos="zoom-out-up" data-aos-duration="1500">
     CONTACTO
   </span>
@@ -49,9 +51,9 @@
 
     <!-- Iconos Sociales Desktop -->
     <div class="hidden md:flex flex-row items-center mr-[30px]" data-aos="zoom-in-down" data-aos-duration="3000">
-     <img class="mx-2 social-icon instagram" src="img/logo-instagram.webp" width="25px" alt="Instagram" />
-      <img class="mx-2 social-icon whatsapp" src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" />
-      <img class="mx-2 social-icon linkedin" src="img/logo-linked.webp" width="25px" alt="LinkedIn" />
+     <a href="https://www.instagram.com/bettermt.company?igsh=ZGRqcW9wdzUxMm15&utm_source=qr" target="_blank"><img class="mx-2 social-icon instagram" src="img/logo-instagram.webp" width="25px" alt="Instagram" /></a>
+      <a href="https://wa.me/573125246155" target="_blank"><img class="mx-2 social-icon whatsapp" src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" /></a>
+      <a href="https://www.linkedin.com/company/bettermt-company/about/?viewAsMember=true" target="_blank"><img class="mx-2 social-icon linkedin" src="img/logo-linked.webp" width="25px" alt="LinkedIn" /></a>
       <img class="mx-2 social-icon email" src="img/logo-envelope.webp" width="25px" alt="Correo" />
     </div>
 
@@ -66,15 +68,15 @@
 
   <!-- Menú móvil oculto inicialmente -->
   <div id="mobile-menu" class="hidden md:hidden bg-black text-white fuente-refsan flex-col items-start px-6 py-4 space-y-4">
-    <a href="#" class="block">HOME</a>
-    <a href="#" class="block">SERVICIOS</a>
-    <a href="#" class="block">CONTACTO</a>
-    <a href="#" class="block">NOSOTROS</a>
-    <a href="#" class="block">PROYECTOS</a>
+    <a href="/" class="block">HOME</a>
+    <a href="services.html" class="block">SERVICIOS</a>
+    <a href="https://wa.me/573125246155" target="_blank" class="block">CONTACTO</a>
+    <a href="/#nosotros" class="block">NOSOTROS</a>
+    <a href="/#proyectos" class="block">PROYECTOS</a>
     <div class="flex space-x-4 pt-2">
-      <img src="img/logo-instagram.webp" width="25px" alt="Instagram" />
-      <img src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" />
-      <img src="img/logo-linked.webp" width="25px" alt="LinkedIn" />
+      <a href="https://www.instagram.com/bettermt.company?igsh=ZGRqcW9wdzUxMm15&utm_source=qr" target="_blank"><img src="img/logo-instagram.webp" width="25px" alt="Instagram" /></a>
+      <a href="https://wa.me/573125246155" target="_blank"><img src="img/logo-whatsapp.webp" width="25px" alt="WhatsApp" /></a>
+      <a href="https://www.linkedin.com/company/bettermt-company/about/?viewAsMember=true" target="_blank"><img src="img/logo-linked.webp" width="25px" alt="LinkedIn" /></a>
       <img src="img/logo-envelope.webp" width="25px" alt="Correo" />
     </div>
   </div>
@@ -82,74 +84,93 @@
 
     <br /><br /><br />
 
-    <div
-      class="relative w-full h-full flex flex-col justify-center items-center"
-    >
-      <br /><br /><br /><br /><br />
-      <img
-        class="w-full h-full object-cover absolute top-0 left-0 z-0"
-        src="img/degradado.webp"
-        alt=""
-      />
-      <div class="z-10 w-full grid grid-cols-2 gap-2 rounded-xl p-2">
-        <div align="center" class="text-white">
-          <div class="flex flex-col place-content-end justify-end items-end">
-            <img src="img/identidad.png" width="70%" alt="" data-aos="zoom-in" data-aos-duration="500" />
-            <img src="img/demarca.webp" width="70%" alt="" class="mt-[-30px]" data-aos="zoom-in" data-aos-duration="1000" />
-            <p
-              align="justify"
-              class="w-[70%] fuente-mont-extralight text-xl text-black" data-aos="zoom-in-down" data-aos-duration="1500"
-            >
-              <span class="text-[var(--blue)] fuente-mont-black"
-                >Ayudamos a negocios con objetivos claros a construir una
-                identidad visual sólida y efectiva:</span
-              >
-              Diseñamos logos que capturan la esencia de tu marca y creamos una
-              imagen completa que te diferencia en el mercado. Desde la elección
-              de colores y tipografías hasta la definición de tu estilo visual,
-              te acompañamos en cada paso para que tu marca comunique tu valor y
-              conecte con tu público ideal.
-            </p>
-            <br /><br /><br />
-          </div>
-        </div>
-        <div align="center" class="text-white">
-          <img src="img/lapiz.png" width="70%" alt=""  data-aos="zoom-in-down"  data-aos-duration="2500" />
-        </div>
-      </div>
-      <div align="center" class="z-10 w-full">
-        <img src="img/banner4.webp" width="80%" alt="" data-aos="zoom-out" data-aos-duration="3000" />
-      </div>
-      <br /><br /><br /><br /><br />
-      <div class="z-10 w-full grid grid-cols-2 gap-2 rounded-xl p-2">
-        <div align="center" class="text-white">
-          <div class="flex flex-col place-content-end justify-end items-end">
-            <img src="img/disenografico.png" width="70%" alt=""  data-aos="zoom-in" data-aos-duration="500" />
-            <img src="img/impreso.webp" width="70%" alt="" class="mt-[-30px]"  data-aos="zoom-in" data-aos-duration="1500" />
-            <p
-              align="justify"
-              class="w-[70%] fuente-mont-extralight text-xl text-black"  data-aos="zoom-in-down" data-aos-duration="1500"
-            >
-              <span class="text-[var(--blue)] fuente-mont-black"
-                >Transformamos tus ideas
-              </span>
-              en diseños para impresión que impactan y perduran. Desde tarjetas
-              de presentación y folletos hasta catálogos y empaques, creamos
-              diseños que comunican tu mensaje con claridad y estilo. Nos
-              enfocamos en la calidad, la precisión y la atención al detalle
-              para asegurar que cada pieza impresa refleje la profesionalidad y
-              la excelencia de tu marca.
-            </p>
-            <br /><br /><br />
-          </div>
-        </div>
-        <div align="center" class="text-white">
-          <img src="img/banner5.png" width="80%" alt=""   data-aos="zoom-in-down"  data-aos-duration="2500" />
-        </div>
-      </div>
+ 
+
+   <div class="relative w-full h-full flex flex-col justify-center items-center">
+  <!-- Espaciado inicial -->
+  <div class="h-20 sm:h-32"></div>
+
+  <!-- Fondo degradado -->
+  <img
+    class="w-full h-full object-cover absolute top-0 left-0 z-0"
+    src="img/degradado.webp"
+    alt=""
+  />
+
+  <!-- Bloque 1: Identidad -->
+  <div class="z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-8">
+    <div class="text-white flex flex-col items-center lg:items-end">
+      <img src="img/identidad.png" class="w-[80%]" alt="" />
+      <img src="img/demarca.webp" class="w-[80%] mt-[-20px] md:mt-[-40px]"  alt="" />
+      <p
+        class="w-[80%] fuente-mont-extralight text-lg md:text-xl text-black text-justify mt-4"
+      >
+        <span class="text-[var(--blue)] fuente-mont-black">
+          Ayudamos a negocios con objetivos claros a construir una identidad visual sólida y efectiva:
+        </span>
+        Diseñamos logos que capturan la esencia de tu marca y creamos una imagen completa que te diferencia en el mercado.
+        Desde la elección de colores y tipografías hasta la definición de tu estilo visual,
+        te acompañamos en cada paso para que tu marca comunique tu valor y conecte con tu público ideal.
+      </p>
     </div>
 
-    <table style="border-collapse: collapse; border-spacing: 0; width: 100%"    data-aos="zoom-in-down"  data-aos-duration="2500">
+    <div class="flex justify-center items-center">
+      <img
+        src="img/lapiz.png"
+        class="w-[80%] max-w-[400px]"
+        alt=""
+        data-aos="zoom-in-down"
+        data-aos-duration="2500"
+      />
+    </div>
+  </div>
+
+  <!-- Imagen decorativa intermedia -->
+  <div class="z-10 w-full flex justify-center py-8">
+    <img
+      src="img/banner4.webp"
+      class="w-[90%]"
+      alt=""
+      data-aos="zoom-in-down"
+      data-aos-duration="3000"
+    />
+  </div>
+
+  <!-- Bloque 2: Diseño gráfico -->
+  <div class="z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-8">
+    <div class="text-white flex flex-col items-center lg:items-end">
+      <img src="img/disenografico.png" class="w-[80%]" alt="" />
+      <img src="img/impreso.webp" class="w-[80%] mt-[-10px] md:mt-[-30px]" alt="" />
+      <p
+        class="w-[80%] fuente-mont-extralight text-lg md:text-xl text-black text-justify mt-4"
+      >
+        <span class="text-[var(--blue)] fuente-mont-black">
+          Transformamos tus ideas
+        </span>
+        en diseños para impresión que impactan y perduran. Desde tarjetas de presentación y folletos
+        hasta catálogos y empaques, creamos diseños que comunican tu mensaje con claridad y estilo.
+        Nos enfocamos en la calidad, la precisión y la atención al detalle para asegurar que cada pieza
+        impresa refleje la profesionalidad y la excelencia de tu marca.
+      </p>
+    </div>
+
+    <div class="flex justify-center items-center">
+      <img
+        src="img/banner5.png"
+        class="w-[80%] max-w-[400px]"
+        alt=""
+        data-aos="zoom-in-down"
+        data-aos-duration="2500"
+      />
+    </div>
+  </div>
+
+  <!-- Espaciado final -->
+  <div class="h-20 sm:h-32"></div>
+</div>
+
+
+    <table style="border-collapse: collapse; border-spacing: 0; width: 100%"  >
       <tr>
         <td style="padding: 0; margin: 0">
           <img src="img/lado1.png" style="display: block; width: 100%" alt="" />
@@ -160,11 +181,16 @@
       </tr>
     </table>
 
-    <div align="center" data-aos="zoom-out-up" data-aos-duration="3000">
-      <br /><br /><br />
-      <img src="img/planes.webp" width="400px" alt="" />
-      <br /><br /><br /><br />
-    </div>
+    <div align="center" class="w-full flex flex-col place-content-center justify-center items-center" >
+  <div class="py-8 sm:py-16">
+    <a href="https://wa.me/573125246155" target="_blank"><img
+      src="img/planes.webp"
+      alt=""
+      class="w-[70%] sm:w-[400px] transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110 cursor-pointer rounded-lg"
+    /></a>
+  </div>
+</div>
+
 
     <div class="relative w-full h-full flex flex-col justify-center items-center">
       <br /><br /><br /><br /><br />
@@ -175,233 +201,322 @@
       />
     
 
-  <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div
-    class="z-10 grid place-content-center justify-center items-center"
-    style="grid-template-columns: 30% 30%; gap: 40px; width: 100%;"
-  >
-  
-    <div >
-      <div class="flex flex-col place-content-end justify-end items-end">
-            <img src="img/disenografico.png" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="500" />
-            <img src="img/digital.webp" width="100%" alt="" class="mt-[-30px]"   data-aos="zoom-in-down" data-aos-duration="1500" />
-            <p
-              align="justify"
-              class="w-[100%] fuente-mont-extralight text-xl text-black"   data-aos="zoom-in-down" data-aos-duration="2500"
-            >
-              <span class="text-[var(--blue)] fuente-mont-black"
-                >Creamos contenido visual impactante y estratégico.</span
-              >
-              Desde publicaciones atractivas e ilustraciones personalizadas
-              hasta historias dinámicas y campañas orgánicas, diseñamos piezas
-              que conectan con tu audiencia y potencian tu presencia en linea.
-              Buscamos mantener una estética llamativa y alineada a la linea
-              gráfica de tu marca, asegurando que tu marca destaque en el mundo
-              digital.
-            </p>
-            <br /><br /><br />
-          </div>
+  <!-- Sección 1: Texto + imagen -->
+<div class="flex justify-center items-center w-[90%] md:w-[90%] px-4">
+  <div class="z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 w-[90%] md:w-[90%]">
+    <!-- Texto -->
+    <div>
+      <div class="flex flex-col items-center lg:items-end">
+        <img src="img/disenografico.png" class="w-full" alt="" />
+        <img src="img/digital.webp" class="w-full mt-[-10px] md:mt-[-30px]" alt="" />
+        <p class="w-full fuente-mont-extralight text-lg md:text-xl text-black text-justify mt-4">
+          <span class="text-[var(--blue)] fuente-mont-black">
+            Creamos contenido visual impactante y estratégico.
+          </span>
+          Desde publicaciones atractivas e ilustraciones personalizadas hasta historias dinámicas y campañas orgánicas,
+          diseñamos piezas que conectan con tu audiencia y potencian tu presencia en línea.
+          Buscamos mantener una estética llamativa y alineada a la línea gráfica de tu marca,
+          asegurando que tu marca destaque en el mundo digital.
+        </p>
+      </div>
     </div>
-    <div> <img src="img/phone.png" width="100%" alt=""   data-aos="zoom-in-down" data-aos-duration="2500"></div>
-  </div>
-  </div>
-  <br><br><br><br>
-  <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div
-    class="z-10 grid place-content-center justify-center items-center"
-    style="grid-template-columns: 20% 20% 20%; gap: 20px; width: 100%;"
-  >
-    <div >
-      <img src="img/phone2.webp" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="500">
+
+    <!-- Imagen decorativa -->
+    <div class="flex justify-center items-center">
+      <img src="img/phone.png" class="w-[80%] " alt="" data-aos="zoom-in-down" data-aos-duration="2500" />
     </div>
-    <div > <img src="img/phone3.webp" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="1000"></div>
-    <div > <img src="img/phone4.webp" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="1500"></div>
   </div>
+</div>
+
+<br /><br /><br /><br />
+
+<!-- Sección 2: Tres imágenes -->
+<div class="flex justify-center items-center w-full px-4">
+  <div class="z-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full md:w-[80%]">
+    <div class="flex justify-center">
+      <img src="img/phone2.webp" class="w-[90%] max-w-[300px]" alt="" data-aos="zoom-in-down" data-aos-duration="500" />
+    </div>
+    <div class="flex justify-center">
+      <img src="img/phone3.webp" class="w-[90%] max-w-[300px]" alt="" data-aos="zoom-in-down" data-aos-duration="1000" />
+    </div>
+    <div class="flex justify-center">
+      <img src="img/phone4.webp" class="w-[90%] max-w-[300px]" alt="" data-aos="zoom-in-down" data-aos-duration="1500" />
+    </div>
   </div>
+</div>
+
 
 <br><br><br><br>
-   <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div
-    class="z-10 grid place-content-center justify-center items-center"
-    style="grid-template-columns: 30% 30%; gap: 40px; width: 100%;"
-  >
-    
-    <div > <img src="img/phone5.png" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="2000"></div>
-    <div > <img src="img/phone6.png" width="100%" alt=""  data-aos="zoom-in-down" data-aos-duration="2500"></div>
+   <!-- Sección 1: Dos imágenes phone5 + phone6 -->
+<div class="flex justify-center items-center w-[80%] px-4">
+  <div class="z-10 grid grid-cols-1 md:grid-cols-2 gap-10 w-[90%] md:w-[80%]">
+    <div>
+      <img src="img/phone5.png" class="w-full" alt="" data-aos="zoom-in-down" data-aos-duration="2000" />
+    </div>
+    <div>
+      <img src="img/phone6.png" class="w-full" alt="" data-aos="zoom-in-down" data-aos-duration="2500" />
+    </div>
   </div>
-  </div>
-      <div align="center" class="z-10" data-aos="zoom-in-down" data-aos-duration="2500">
-      <br /><br /><br />
-      <img src="img/planes.webp" width="400px" alt="" />
-      <br /><br /><br /><br />
+</div>
+
+<!-- Imagen planes -->
+<div class="z-10 flex justify-center items-center w-full py-12">
+  <a href="https://wa.me/573125246155" target="_blank"><img
+    src="img/planes.webp"
+    alt=""
+    class="w-[80%] sm:w-[400px] transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110 cursor-pointer rounded-lg"
+  /></a>
+</div>
+
+<!-- Sección 2: Diseño y desarrollo web -->
+<div class="flex justify-center items-center w-full px-4">
+  <div class="z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 w-full max-w-[1200px]">
+    <!-- Texto + imágenes -->
+    <div>
+      <div class="flex flex-col items-center lg:items-end">
+        <img src="img/disenoy.png" class="w-[90%]" alt="" />
+        <img src="img/desarrolloweb.webp" class="w-[90%] mt-[-10px]" alt="" />
+        <p class="w-[90%] fuente-mont-extralight text-lg md:text-xl text-black text-justify mt-4">
+          <span class="text-[var(--blue)] fuente-mont-black">
+            Construimos tu presencia digital con soluciones a medida.
+          </span>
+          Diseñamos y desarrollamos sitios web atractivos y funcionales, tiendas en línea optimizadas para la conversión,
+          aplicaciones móviles innovadoras y plataformas administrativas eficientes. Nos enfocamos en la experiencia del
+          usuario, la usabilidad y el rendimiento para crear herramientas digitales que impulsen tu negocio. Desde la
+          conceptualización y el diseño hasta el desarrollo y el mantenimiento, te acompañamos en cada etapa para que tu
+          proyecto digital sea un éxito.
+        </p>
+      </div>
     </div>
 
-    <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div
-    class="z-10 grid place-content-center justify-center items-center"
-    style="grid-template-columns: 35% 35%; gap: 0px; width: 100%;"
-  >
-  
-    <div >
-      <div class="flex flex-col place-content-end justify-end items-end">
-            <img src="img/disenoy.png" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="500" />
-            <img src="img/desarrolloweb.webp" width="100%" alt="" class="mt-[-10px]" data-aos="zoom-in-down" data-aos-duration="1000" />
-            <p
-              align="justify"
-              class="w-[100%] fuente-mont-extralight text-xl text-black" data-aos="zoom-in-down" data-aos-duration="2500"
-            >
-              <span class="text-[var(--blue)] fuente-mont-black"
-                >Construimos tu presencia digital con soluciones a medida.</span
-              >
-              
-Diseñamos y desarrollamos sitios web atractivos y funcionales, tiendas en linea optimizadas para la conversión, aplicaciones móviles innovadoras y plataformas administrativas eficientes, Nos enfocamos en la experiencia del usuario, la usabilidad y el rendimiento para crear herramientas digitales que impulsen tu negocio. Desde la conceptualización y el diseño hasta el desarrollo y el mantenimiento, te acompañamos en cada etapa para que tu proyecto digital sea un éxito.
-            </p>
-            <br /><br /><br />
-          </div>
+    <!-- Imagen laptop -->
+    <div class="flex justify-center items-center lg:ml-[-50px]">
+      <img
+        src="img/laptop.webp"
+        class="w-full max-w-[500px]"
+        alt=""
+        data-aos="zoom-in-down"
+        data-aos-duration="2500"
+      />
     </div>
-    <div class="ml-[-50px]"> <img src="img/laptop.webp" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="2500"></div>
   </div>
-  </div>
-
-  <div class="z-10">
-    <img src="img/flores.png" width="100%" alt="" data-aos="zoom-in-down" data-aos-duration="2500">
-  </div>
-
-  <div
-  align="center"
-  class="w-full z-10" 
-  style="background: linear-gradient(to right, #363636, #121212);"  
->
-  <br /><br />
-  <img src="img/planesblanco.webp" width="400px" alt="" data-aos="zoom-in-down" data-aos-duration="2500"  />
-  <br /><br /><br />
 </div>
 
 
-    <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
+  <div class="z-10">
+    <img src="img/flores.png" width="100%" alt="">
+  </div>
+
   <div
-    class="z-10 grid place-content-center justify-center items-center"
-    style="grid-template-columns: 35% 30%; gap: 20px; width: 100%;"
-  >
-  
-    <div >
-      <div class="flex flex-col place-content-center justify-center items-center">
-            
-         <img src="img/meta.png" width="100%"  data-aos="zoom-in-down" data-aos-duration="500" >
+  class="w-full z-10 -mt-28 bg-gradient-to-r from-[#363636] to-[#121212] flex flex-col items-center px-4 py-12"
+>
+  <a href="https://wa.me/573125246155" target="_blank"><img
+    src="img/planesblanco.webp"
+    alt=""
+    class="w-[90%] sm:w-[400px] max-w-[400px] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl rounded-lg cursor-pointer"
+  /></a>
+</div>
 
-            <img src="img/ads.webp" width="100%" class="mt-[-80px]"   data-aos="zoom-in-down" data-aos-duration="1500">
 
-          </div>
+
+  <!-- Sección: Meta + Ads + Teléfono -->
+<div class="flex justify-center items-center w-full px-4 py-8">
+  <div class="z-10 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full max-w-[1200px]">
+    <!-- Izquierda: Imágenes meta + ads -->
+    <div class="flex flex-col items-center justify-center">
+      <img src="img/meta.png" class="w-[90%]" alt="" />
+      <img src="img/ads.webp" class="w-[90%] mt-[-60px]" alt="" />
     </div>
-    <div align="center"> <img src="img/telefono.webp" width="100%" alt=""   data-aos="zoom-in-down" data-aos-duration="2500"></div>
-  </div>
-  </div>
 
-
-    <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div
-    class="z-10 grid place-content-center justify-center items-center"
-    style="grid-template-columns: 65%; gap: 20px; width: 100%;" data-aos="zoom-in-down" data-aos-duration="2500"
-  >
-  
-    <div class=" fuente-mont-extralight text-2xl text-black">
-     <p align="justify"><span class="text-[var(--blue)] fuente-mont-black"   
-                >Impulsamos tu negocio con campañas publicitarias estratégicas en Meta Ads.</span> Diseñamos anuncios que capturan la atención, segmentamos tu audiencia para alcanzar a tus clientes ideales y optimizamos cada campaña para maximizar tu retorno de inversión. Desde la creación de contenido visual atractivo hasta el análisis de resultados, te acompañamos en cada paso para tus anuncios generen resultados reales y hagan crecer tu negocio.</p>
+    <!-- Derecha: Imagen teléfono -->
+    <div class="flex justify-center items-center">
+      <img
+        src="img/telefono.webp"
+        class="w-[90%] max-w-[400px]"
+        alt=""
+        data-aos="zoom-in-down"
+        data-aos-duration="2500"
+      />
     </div>
-    
   </div>
+</div>
+
+<!-- Sección: Texto explicativo -->
+<div class="flex justify-center items-center w-[90%] px-4 py-8">
+  <div class="z-10 w-[90%]">
+    <p class="fuente-mont-extralight text-lg md:text-2xl text-black text-justify">
+      <span class="text-[var(--blue)] fuente-mont-black">
+        Impulsamos tu negocio con campañas publicitarias estratégicas en Meta Ads.
+      </span>
+      Diseñamos anuncios que capturan la atención, segmentamos tu audiencia para alcanzar a tus clientes ideales y optimizamos cada campaña para maximizar tu retorno de inversión. Desde la creación de contenido visual atractivo hasta el análisis de resultados, te acompañamos en cada paso para que tus anuncios generen resultados reales y hagan crecer tu negocio.
+    </p>
   </div>
+</div>
+
 
 
   <br><br><br><br>
 
- <div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div class="z-10 grid place-content-center justify-center items-center" style="grid-template-columns: 20% 20% 20%; gap: 20px; width: 100%;">
-    <div align="center">
-      <img src="img/op1.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="500">
+ <!-- Fila 1 -->
+<div class="flex justify-center items-center w-full px-4 py-6">
+  <div class="z-10 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[1000px]">
+    <div class="flex justify-center">
+      <img src="img/op1.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="500">
     </div>
-    <div align="center">
-      <img src="img/op2.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="1000">
+    <div class="flex justify-center">
+      <img src="img/op2.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="1000">
     </div>
-    <div align="center">
-      <img src="img/op3.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="1500">
+    <div class="flex justify-center">
+      <img src="img/op3.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="1500">
     </div>
   </div>
 </div>
-<br><br>
 
-<div style="display: flex; place-content: center; justify-content: center; align-items: center; width: 100%;">
-  <div class="z-10 grid place-content-center justify-center items-center" style="grid-template-columns: 20% 20% 20%; gap: 20px; width: 100%;">
-    <div align="center">
-      <img src="img/op4.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="2000">
+<!-- Fila 2 -->
+<div class="flex justify-center items-center w-full px-4 py-6">
+  <div class="z-10 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[1000px]">
+    <div class="flex justify-center">
+      <img src="img/op4.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
     </div>
-    <div align="center">
-      <img src="img/op5.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="2500">
+    <div class="flex justify-center">
+      <img src="img/op5.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="2500">
     </div>
-    <div align="center">
-      <img src="img/op6.png" width="200px" alt="" class="luxury-rotate-hover" data-aos="zoom-out-up" data-aos-duration="3000">
+    <div class="flex justify-center">
+      <img src="img/op6.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="3000">
     </div>
   </div>
 </div>
+
+
 
 
     <br><br><br><br>
 
-    <div class="relative w-full h-auto flex flex-col justify-center items-center py-10 pl-[15%] pr-[15%] bg-black">
-  <!-- Imagen de fondo -->
-  <img
-    class="w-full h-full object-cover absolute top-0 left-0 z-0"
-    src="img/bg-negro.webp"
-    alt=""
-  />
 
-  <!-- Contenido principal del footer -->
-  <div class="z-10 w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 mt-8 md:mt-[5%]">
-    <!-- Logo -->
-    <div class="flex justify-center md:justify-start items-center">
-      <img src="img/logo-foot.webp" class="w-[200px] md:w-[250px]" alt="Logo" />
-    </div>
+   <div
+      class="relative w-full h-auto flex flex-col justify-center items-center py-10 pl-[15%] pr-[15%] bg-black"
+    >
+      <!-- Imagen de fondo -->
+      <img
+        class="w-full h-full object-cover absolute top-0 left-0 z-0"
+        src="img/bg-negro.webp"
+        alt=""
+      />
 
-    <!-- Menú y redes sociales -->
-    <div class="flex flex-col items-center md:items-end text-white fuente-mont-light text-center md:text-right">
-      <!-- Menú de navegación -->
-      <div class="flex flex-col items-center md:items-end text-white font-light">
-        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
-          HOME
-        </span>
-        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
-          SERVICIOS
-        </span>
-        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
-          CONTACTO
-        </span>
-        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
-          NOSOTROS
-        </span>
-        <span class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer">
-          PROYECTOS
-        </span>
+      <!-- Contenido principal del footer -->
+      <div
+        class="z-10 w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 mt-8 md:mt-[5%]"
+      >
+        <!-- Logo -->
+        <div class="flex justify-center md:justify-start items-center">
+          <a href="/"
+            ><img
+              src="img/logo-foot.webp"
+              class="w-[200px] md:w-[250px]"
+              alt="Logo"
+          /></a>
+        </div>
+
+        <!-- Menú y redes sociales -->
+        <div
+          class="flex flex-col items-center md:items-end text-white fuente-mont-light text-center md:text-right"
+        >
+          <!-- Menú de navegación -->
+          <div
+            class="flex flex-col items-center md:items-end text-white font-light"
+          >
+            <a
+              href="/"
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              HOME
+            </a>
+            <a
+              href="services.html"
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              SERVICIOS
+            </a>
+            <a
+              href="https://wa.me/573125246155"
+              target="_blank"
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              CONTACTO
+            </a>
+            <a
+              href="/#nosotros"
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              NOSOTROS
+            </a>
+            <a
+              href="/#proyectos"
+              class="mt-4 transition duration-300 hover:scale-105 hover:text-[#fff862] underline-animate cursor-pointer"
+            >
+              PROYECTOS
+            </a>
+          </div>
+
+          <!-- Redes sociales -->
+          <div
+            class="flex flex-row items-center mt-6 flex-wrap justify-center md:justify-end gap-3"
+          >
+            <a
+              href="https://www.instagram.com/bettermt.company?igsh=ZGRqcW9wdzUxMm15&utm_source=qr"
+              target="_blank"
+              ><img
+                src="img/logo-instagram.webp"
+                width="30"
+                alt="Instagram"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+            <a href="https://wa.me/573125246155" target="_blank"
+              ><img
+                src="img/logo-whatsapp.webp"
+                width="30"
+                alt="WhatsApp"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+            <a
+              href="https://www.linkedin.com/company/bettermt-company/about/?viewAsMember=true"
+              target="_blank"
+              ><img
+                src="img/logo-linked.webp"
+                width="30"
+                alt="LinkedIn"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+            <a href="mailto:operacionesbettermt@gmail.com"
+              ><img
+                src="img/logo-envelope.webp"
+                width="30"
+                alt="Correo"
+                class="social-icon-glow cursor-pointer transition-all duration-300"
+            /></a>
+          </div>
+        </div>
       </div>
 
-      <!-- Redes sociales -->
-      <div class="flex flex-row items-center mt-6 flex-wrap justify-center md:justify-end gap-3">
-        <img src="img/logo-instagram.webp" width="30" alt="Instagram"
-          class="social-icon-glow cursor-pointer transition-all duration-300" />
-        <img src="img/logo-whatsapp.webp" width="30" alt="WhatsApp"
-          class="social-icon-glow cursor-pointer transition-all duration-300" />
-        <img src="img/logo-linked.webp" width="30" alt="LinkedIn"
-          class="social-icon-glow cursor-pointer transition-all duration-300" />
-        <img src="img/logo-envelope.webp" width="30" alt="Correo"
-          class="social-icon-glow cursor-pointer transition-all duration-300" />
+      <!-- Título inferior -->
+      <div
+        class="z-10 mt-10 text-center text-xl md:text-2xl text-white fuente-refsan"
+      >
+        <img
+          src="img/titulopie.webp"
+          class="w-[250px] md:w-[400px] mx-auto"
+          alt="Título pie"
+        />
       </div>
     </div>
-  </div>
-
-  <!-- Título inferior -->
-  <div class="z-10 mt-10 text-center text-xl md:text-2xl text-white fuente-refsan">
-    <img src="img/titulopie.webp" class="w-[250px] md:w-[400px] mx-auto" alt="Título pie" />
-  </div>
-</div>
+    <a
+      href="https://wa.me/573125246155"
+      class="whatsapp-button"
+      target="_blank"
+      aria-label="Chatea con nosotros por WhatsApp"
+    >
+      <img src="img/WhatsApp.svg" alt="WhatsApp" />
+    </a>
 
 
     <script>
