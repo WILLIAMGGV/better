@@ -98,7 +98,7 @@
   />
 
   <!-- Bloque 1: Identidad -->
-  <div class="z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-8">
+  <div id="identidad" class="z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-8">
     <div class="text-white flex flex-col items-center lg:items-end">
       <img src="img/identidad.png" class="w-[80%]" alt="" />
       <img src="img/demarca.webp" class="w-[80%] mt-[-20px] md:mt-[-40px]"  alt="" />
@@ -125,19 +125,28 @@
     </div>
   </div>
 
+  <br><br><br>
+
   <!-- Imagen decorativa intermedia -->
-  <div class="z-10 w-full flex justify-center py-8">
+  <div class="relative z-10 w-full flex justify-center py-8">
     <img
-      src="img/banner4.webp"
+      src="img/banner4.png"
       class="w-[90%]"
       alt=""
       data-aos="zoom-in-down"
       data-aos-duration="3000"
     />
+    <a class="absolute bottom-0 left-[10%]" href="https://wa.me/573125246155" target="_blank"><img
+    src="img/planes.webp"
+    alt=""
+    class="w-[40%] sm:w-[400px] transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110 cursor-pointer rounded-lg"
+  /></a>
   </div>
 
+    <br><br><br>  <br><br><br>
+
   <!-- Bloque 2: Diseño gráfico -->
-  <div class="z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-8">
+  <div id="diseno" class="z-10 w-full grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 py-8">
     <div class="text-white flex flex-col items-center lg:items-end">
       <img src="img/disenografico.png" class="w-[80%]" alt="" />
       <img src="img/impreso.webp" class="w-[80%] mt-[-10px] md:mt-[-30px]" alt="" />
@@ -157,13 +166,15 @@
     <div class="flex justify-center items-center">
       <img
         src="img/banner5.png"
-        class="w-[80%] max-w-[400px]"
+        class="w-[80%] md:w-[100%]"
         alt=""
         data-aos="zoom-in-down"
         data-aos-duration="2500"
       />
     </div>
   </div>
+
+    <br><br><br>
 
   <!-- Espaciado final -->
   <div class="h-20 sm:h-32"></div>
@@ -267,9 +278,9 @@
     class="w-[80%] sm:w-[400px] transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-110 cursor-pointer rounded-lg"
   /></a>
 </div>
-
+  <br><br><br>  <br><br><br>
 <!-- Sección 2: Diseño y desarrollo web -->
-<div class="flex justify-center items-center w-full px-4">
+<div id="web" class="flex justify-center items-center w-full px-4">
   <div class="z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 w-full max-w-[1200px]">
     <!-- Texto + imágenes -->
     <div>
@@ -290,10 +301,10 @@
     </div>
 
     <!-- Imagen laptop -->
-    <div class="flex justify-center items-center lg:ml-[-50px]">
+    <div class="flex justify-center items-center lg:ml-[-200px] lg:mt-[-100px]">
       <img
         src="img/laptop.webp"
-        class="w-full max-w-[500px]"
+        class="w-full md:w-full"
         alt=""
         data-aos="zoom-in-down"
         data-aos-duration="2500"
@@ -301,7 +312,7 @@
     </div>
   </div>
 </div>
-
+  <br><br><br>  <br><br><br>
 
   <div class="z-10">
     <img src="img/flores.png" width="100%" alt="">
@@ -320,7 +331,7 @@
 
 
   <!-- Sección: Meta + Ads + Teléfono -->
-<div class="flex justify-center items-center w-full px-4 py-8">
+<div id="publicidad" class="flex justify-center items-center w-full px-4 py-8">
   <div class="z-10 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full max-w-[1200px]">
     <!-- Izquierda: Imágenes meta + ads -->
     <div class="flex flex-col items-center justify-center">
@@ -359,33 +370,42 @@
 
  <!-- Fila 1 -->
 <div class="flex justify-center items-center w-full px-4 py-6">
-  <div class="z-10 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[1000px]">
+  <div class="z-10 grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-[1000px]">
     <div class="flex justify-center">
-      <img src="img/op1.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="500">
+      <img src="img/op1.png" class="w-[140px] md:[200px] cursor-pointer transition-transform hover:scale-110" alt="" >
     </div>
     <div class="flex justify-center">
-      <img src="img/op2.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="1000">
+      <img src="img/op2.png" class="w-[140px] md:[200px] cursor-pointer transition-transform hover:scale-110" alt="" >
     </div>
     <div class="flex justify-center">
-      <img src="img/op3.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="1500">
+      <img src="img/op3.png" class="w-[140px] md:[200px] cursor-pointer transition-transform hover:scale-110" alt="" >
+    </div>
+
+     <div class="flex justify-center">
+      <img src="img/op4.png" 
+           class="w-[140px]  md:[200px] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110" 
+           alt="" 
+          >
+    </div>
+
+    <div class="flex justify-center">
+      <img src="img/op5.png" 
+           class="w-[140px]  md:[200px] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110" 
+           alt="" 
+         >
+    </div>
+
+    <div class="flex justify-center">
+      <img src="img/op6.png" 
+           class="w-[140px]  md:[200px] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110" 
+           alt="" 
+           >
     </div>
   </div>
 </div>
 
 <!-- Fila 2 -->
-<div class="flex justify-center items-center w-full px-4 py-6">
-  <div class="z-10 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[1000px]">
-    <div class="flex justify-center">
-      <img src="img/op4.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
-    </div>
-    <div class="flex justify-center">
-      <img src="img/op5.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="2500">
-    </div>
-    <div class="flex justify-center">
-      <img src="img/op6.png" class="w-[200px] luxury-rotate-hover" alt="" data-aos="zoom-out-up" data-aos-duration="3000">
-    </div>
-  </div>
-</div>
+
 
 
 
